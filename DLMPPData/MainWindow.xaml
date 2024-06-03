@@ -4,18 +4,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:views="clr-namespace:DLMPPData.Views"
+        xmlns:vm="clr-namespace:DLMPPData.ViewModels"
         xmlns:local="clr-namespace:DLMPPData"
         mc:Ignorable="d"
         Title="点火最值记录" Height="600" Width="1200" WindowState="Maximized">
+
     <Grid>
         <TabControl x:Name="tabControl" Margin="15,15,15,15">
-            <TabItem Header="设定" FontSize="30"  Width="150" Height="70">
+            <TabItem x:Name="tabItemSet" Header="设定" FontSize="30"  Width="150" Height="70">
                 <views:ConnectionUserControl/>
             </TabItem>
-            <TabItem Header="Case1" FontSize="30"  Width="150" Height="70">
+            <TabItem x:Name="tabItem1" Header="Case1" FontSize="30"  Width="150" Height="70"  IsEnabled="{Binding MainWindowModel.IsTabItem1Enabled}">
                 <views:Case1UserControl/>
             </TabItem>
-            <TabItem Header="Case2" FontSize="30"  Width="150" Height="70">
+            <TabItem x:Name="tabItem2" Header="Case2" FontSize="30"  Width="150" Height="70"  IsEnabled="{Binding MainWindowModel.IsTabItem2Enabled}">
                 <views:Case2UserControl/>
             </TabItem>
         </TabControl>

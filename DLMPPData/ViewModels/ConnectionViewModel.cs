@@ -22,8 +22,6 @@ namespace DLMPPData.ViewModels {
             SearchClickCommand = new DelegateCommand(SearchDevice);
             ConnectClickCommand = new DelegateCommand(ConnectDevice);
             FileClickCommand = new DelegateCommand(ChooseFilePath);
-
-
         }
 
 

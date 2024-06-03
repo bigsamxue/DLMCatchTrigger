@@ -32,6 +32,9 @@ namespace DLMPPData.Views {
             chbox3.ItemsSource = chlist;
             mathchbox1.ItemsSource = chlist;
             mathchbox2.ItemsSource = chlist;
+
+            FindChild = new FindChild();
+            FindWindow = new FindWindow();
         }
 
         public List<string> DateList { get; set; }
@@ -56,9 +59,10 @@ namespace DLMPPData.Views {
         public CancellationTokenSource cancellationTokenSource { get; set; }
         public Task TaskForGetValue { get; set; }
 
+        public FindChild FindChild { get; set; }
+        public FindWindow FindWindow { get; set; }
 
         private void Run_Stop_Click(object sender, RoutedEventArgs e) {
-
             if (App.DLM == null || App.DLM.IsConnected != true) {
                 MessageBox.Show("请先连接仪器", "警告", MessageBoxButton.OK, MessageBoxImage.Warning, MessageBoxResult.OK);
             }
@@ -84,6 +88,15 @@ namespace DLMPPData.Views {
                 }
 
                 if (Status_run == "0") {
+                    //TODO: 获取UserControl所在的Window
+                    Window main = FindWindow.GetParentWindow(this);
+                    //TODO：获取Window中的TabControl，其名字为tabItem1，将其IsEnable属性取反
+                    TabItem tab1 = FindChild.FindVisualChild<TabItem>(main, "tabItem1");
+                    TabItem tab2 = FindChild.FindVisualChild<TabItem>(main, "tabItem2");
+                    if (tab1 != null) {
+                        tab1.IsEnabled = true;
+                        tab2.IsEnabled = false;
+                    }
                     App.DLM.RemoteCTRL($":MEASURE:CHANNEL{chbox1.Text}:MAX:STATE ON");
                     App.DLM.RemoteCTRL($":MEASURE:CHANNEL{chbox2.Text}:MIN:STATE ON");
                     App.DLM.RemoteCTRL($":MEASURE:CHANNEL{chbox3.Text}:MIN:STATE ON");
@@ -99,6 +112,14 @@ namespace DLMPPData.Views {
                     TaskForGetValue = Task.Run(GetValue, cancellationTokenSource.Token);
                 }
                 else {
+                    Window main = FindWindow.GetParentWindow(this);
+                    //TODO：获取Window中的TabControl，其名字为tabItem1，将其IsEnable属性取反
+                    TabItem tab1 = FindChild.FindVisualChild<TabItem>(main, "tabItem1");
+                    TabItem tab2 = FindChild.FindVisualChild<TabItem>(main, "tabItem2");
+                    if (tab1 != null) {
+                        tab1.IsEnabled = true;
+                        tab2.IsEnabled = true;
+                    }
                     if (cancellationTokenSource != null) {
                         cancellationTokenSource.Cancel();
 

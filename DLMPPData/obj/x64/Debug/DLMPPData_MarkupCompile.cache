@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\30042383\Desktop\DLMPPData-master\DLMPPData\obj\x64\Debug\
+D:\C#\DLMPPData\DLMPPData\obj\x64\Debug\
 DLMPPData
 none
 false
 DEBUG;TRACE
-C:\Users\30042383\Desktop\DLMPPData-master\DLMPPData\App.xaml
+D:\C#\DLMPPData\DLMPPData\App.xaml
 41851775974
 31185551802
-14617851638
-201979913619
+16-547981666
+2057535386
 MainWindow.xaml;Views\Case1UserControl.xaml;Views\Case2UserControl.xaml;Views\ConnectionUserControl.xaml;
 
 False

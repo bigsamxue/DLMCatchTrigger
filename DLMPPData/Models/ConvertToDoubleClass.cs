@@ -16,5 +16,19 @@ namespace DLMPPData.Models {
                 return data;
             }
         }
+        public string ConvertToDoubleDivide1k(string data) {
+            double data_double;
+            bool data_bool = double.TryParse(data, out data_double);
+            if (data_bool) {
+                double data_double_temp = data_double / 1000;
+
+                return ((decimal)data_double_temp).ToString();
+            }
+            else {
+                return data;
+            }
+        }
     }
+
+
 }

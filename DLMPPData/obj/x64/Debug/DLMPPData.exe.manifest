@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DLMPPData.exe" size="312768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DLMPPData.exe" size="315328">
       <assemblyIdentity name="DLMPPData" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jdFkkX3c7cXkfAUr3T6odAUM/kkgLLwtT6hzHMFyDJI=</dsig:DigestValue>
+        <dsig:DigestValue>eIZDtE4m/tboGXjp1T1JaRztgR8ohjrdEhv3uBKbr94=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

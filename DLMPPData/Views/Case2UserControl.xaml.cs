@@ -28,7 +28,8 @@ namespace DLMPPData.Views {
             List<string> chlist = new List<string> { "1", "2", "3", "4" };
             case2chbox1.ItemsSource = chlist;
             case2chbox2.ItemsSource = chlist;
-
+            FindChild = new FindChild();
+            FindWindow = new FindWindow();
         }
         public List<string> DateList2 { get; set; }
         public List<string> C1MinList { get; set; }
@@ -50,8 +51,10 @@ namespace DLMPPData.Views {
         public Task TaskForGetValue2 { get; set; }
 
 
-        private void Run_Stop_Click2(object sender, RoutedEventArgs e) {
+        public FindChild FindChild { get; set; }
+        public FindWindow FindWindow { get; set; }
 
+        private void Run_Stop_Click2(object sender, RoutedEventArgs e) {
             if (App.DLM == null || App.DLM.IsConnected != true) {
                 MessageBox.Show("请先连接仪器", "警告", MessageBoxButton.OK, MessageBoxImage.Warning, MessageBoxResult.OK);
             }
@@ -77,6 +80,14 @@ namespace DLMPPData.Views {
                 }
 
                 if (Status_run2 == "0") {
+                    Window main = FindWindow.GetParentWindow(this);
+                    //TODO：获取Window中的TabControl，其名字为tabItem1，将其IsEnable属性取反
+                    TabItem tab1 = FindChild.FindVisualChild<TabItem>(main, "tabItem1");
+                    TabItem tab2 = FindChild.FindVisualChild<TabItem>(main, "tabItem2");
+                    if (tab1 != null) {
+                        tab1.IsEnabled = false;
+                        tab2.IsEnabled = true;
+                    }
                     App.DLM.RemoteCTRL($":MEASURE:CHANNEL{case2chbox1.Text}:MIN:STATE ON");
                     App.DLM.RemoteCTRL($":MEASURE:CHANNEL{case2chbox2.Text}:MAX:STATE ON");
 
@@ -89,6 +100,15 @@ namespace DLMPPData.Views {
                     TaskForGetValue2 = Task.Run(GetValue2, cancellationTokenSource2.Token);
                 }
                 else {
+                    Window main = FindWindow.GetParentWindow(this);
+                    //TODO：获取Window中的TabControl，其名字为tabItem1，将其IsEnable属性取反
+                    TabItem tab1 = FindChild.FindVisualChild<TabItem>(main, "tabItem1");
+                    TabItem tab2 = FindChild.FindVisualChild<TabItem>(main, "tabItem2");
+                    if (tab1 != null) {
+                        tab1.IsEnabled = true;
+                        tab2.IsEnabled = true;
+                    }
+
                     if (cancellationTokenSource2 != null) {
                         cancellationTokenSource2.Cancel();
 
@@ -167,7 +187,7 @@ namespace DLMPPData.Views {
                         DataContext = headName;
 
                         var CH1_temp = Regex.Replace(App.DLM.RemoteCTRL(":MEASURE:CHANNEL" + case2chbox1.Text + ":MIN:VALUE?").Split(' ')[1], @"[\r\n]", "");
-                        var CH1 = ConvertClass.ConvertToDouble(CH1_temp);
+                        var CH1 = ConvertClass.ConvertToDoubleDivide1k(CH1_temp);
 
 
                         var CH2_temp = Regex.Replace(App.DLM.RemoteCTRL(":MEASURE:CHANNEL" + case2chbox2.Text + ":MAX:VALUE?").Split(' ')[1], @"[\r\n]", "");
