@@ -7,7 +7,8 @@
         xmlns:vm="clr-namespace:DLMPPData.ViewModels"
         xmlns:local="clr-namespace:DLMPPData"
         mc:Ignorable="d"
-        Title="点火最值记录" Height="600" Width="1200" WindowState="Maximized">
+        Title="点火最值记录" Height="600" Width="1200" WindowState="Maximized"
+        Closing="Window_Closing">
 
     <Grid>
         <TabControl x:Name="tabControl" Margin="15,15,15,15">

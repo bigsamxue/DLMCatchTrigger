@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\C#\\DLMPPData\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|D:\\C#\\DLMPPData\\dlmppdata\\views\\case2usercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|solutionrelative:dlmppdata\\views\\case2usercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|d:\\c#\\dlmppdata\\dlmppdata\\models\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|solutionrelative:dlmppdata\\models\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|D:\\C#\\DLMPPData\\dlmppdata\\views\\case1usercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|solutionrelative:dlmppdata\\views\\case1usercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|d:\\c#\\dlmppdata\\dlmppdata\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|solutionrelative:dlmppdata\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|D:\\C#\\DLMPPData\\dlmppdata\\models\\findchild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|solutionrelative:dlmppdata\\models\\findchild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|D:\\C#\\DLMPPData\\dlmppdata\\viewmodels\\connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|solutionrelative:dlmppdata\\viewmodels\\connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|D:\\C#\\DLMPPData\\dlmppdata\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|solutionrelative:dlmppdata\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|d:\\c#\\dlmppdata\\dlmppdata\\viewmodels\\connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|solutionrelative:dlmppdata\\viewmodels\\connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|d:\\c#\\dlmppdata\\dlmppdata\\models\\findwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|solutionrelative:dlmppdata\\models\\findwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|D:\\C#\\DLMPPData\\dlmppdata\\views\\case2usercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E73FAF6-4D7B-4344-AA98-B1CFAED42261}|DLMPPData\\DLMPPData.csproj|solutionrelative:dlmppdata\\views\\case2usercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +30,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "D:\\C#\\DLMPPData\\DLMPPData\\Models\\Connection.cs",
+              "RelativeDocumentMoniker": "DLMPPData\\Models\\Connection.cs",
+              "ToolTip": "D:\\C#\\DLMPPData\\DLMPPData\\Models\\Connection.cs",
+              "RelativeToolTip": "DLMPPData\\Models\\Connection.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:30:00.501Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -50,67 +60,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\DLMPPData\\DLMPPData\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DLMPPData\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\C#\\DLMPPData\\DLMPPData\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DLMPPData\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvyIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:15:23.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ConnectionViewModel.cs",
               "DocumentMoniker": "D:\\C#\\DLMPPData\\DLMPPData\\ViewModels\\ConnectionViewModel.cs",
               "RelativeDocumentMoniker": "DLMPPData\\ViewModels\\ConnectionViewModel.cs",
               "ToolTip": "D:\\C#\\DLMPPData\\DLMPPData\\ViewModels\\ConnectionViewModel.cs",
               "RelativeToolTip": "DLMPPData\\ViewModels\\ConnectionViewModel.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAvwG0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T09:42:19.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FindWindow.cs",
-              "DocumentMoniker": "D:\\C#\\DLMPPData\\DLMPPData\\Models\\FindWindow.cs",
-              "RelativeDocumentMoniker": "DLMPPData\\Models\\FindWindow.cs",
-              "ToolTip": "D:\\C#\\DLMPPData\\DLMPPData\\Models\\FindWindow.cs",
-              "RelativeToolTip": "DLMPPData\\Models\\FindWindow.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAuwBUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T09:36:04.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FindChild.cs",
-              "DocumentMoniker": "D:\\C#\\DLMPPData\\DLMPPData\\Models\\FindChild.cs",
-              "RelativeDocumentMoniker": "DLMPPData\\Models\\FindChild.cs",
-              "ToolTip": "D:\\C#\\DLMPPData\\DLMPPData\\Models\\FindChild.cs",
-              "RelativeToolTip": "DLMPPData\\Models\\FindChild.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA0wBYAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T09:32:09.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Case2UserControl.xaml.cs",
               "DocumentMoniker": "D:\\C#\\DLMPPData\\DLMPPData\\Views\\Case2UserControl.xaml.cs",
               "RelativeDocumentMoniker": "DLMPPData\\Views\\Case2UserControl.xaml.cs",
               "ToolTip": "D:\\C#\\DLMPPData\\DLMPPData\\Views\\Case2UserControl.xaml.cs",
               "RelativeToolTip": "DLMPPData\\Views\\Case2UserControl.xaml.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAuwB8AAAAoAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAuwDkAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T07:57:19.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Case1UserControl.xaml.cs",
-              "DocumentMoniker": "D:\\C#\\DLMPPData\\DLMPPData\\Views\\Case1UserControl.xaml.cs",
-              "RelativeDocumentMoniker": "DLMPPData\\Views\\Case1UserControl.xaml.cs",
-              "ToolTip": "D:\\C#\\DLMPPData\\DLMPPData\\Views\\Case1UserControl.xaml.cs",
-              "RelativeToolTip": "DLMPPData\\Views\\Case1UserControl.xaml.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAzwHkAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T07:49:32.374Z",
               "EditorCaption": ""
             },
             {

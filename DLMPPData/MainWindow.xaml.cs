@@ -20,5 +20,18 @@ namespace DLMPPData {
         public MainWindow() {
             InitializeComponent();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e) {
+            MessageBoxResult result = System.Windows.MessageBox.Show("请确认是否关闭窗口?", "确认", MessageBoxButton.YesNo);
+            if (result == MessageBoxResult.No) {
+                e.Cancel = true;
+            }
+            else {
+                if (App.DLM != null) {
+                    App.DLM.Finish();
+                }
+            }
+
+        }
     }
 }
