@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\C#\DLMPPData\DLMPPData\obj\x64\Release\
+D:\Yokogawa\DLMPPData\DLMPPData\obj\x64\Release\
 DLMPPData
 none
 false
 TRACE
-D:\C#\DLMPPData\DLMPPData\App.xaml
+D:\Yokogawa\DLMPPData\DLMPPData\App.xaml
 41851775974
 31185551802
-16-547981666
-2057535386
+17-2007068711
+20-1704497844
 MainWindow.xaml;Views\Case1UserControl.xaml;Views\Case2UserControl.xaml;Views\ConnectionUserControl.xaml;
 
-False
+True
 

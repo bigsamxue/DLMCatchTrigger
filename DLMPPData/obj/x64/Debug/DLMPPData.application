@@ -4,7 +4,7 @@
   <description asmv2:publisher="DLMPPData" asmv2:product="DLMPPData" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.6.2" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
     <dependentAssembly dependencyType="install" codebase="DLMPPData.exe.manifest" size="7588">
@@ -14,7 +14,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JmFyLVgUO2gqkDeGn2LIJJXtsfBhHpNxFoE8cbdwAHw=</dsig:DigestValue>
+        <dsig:DigestValue>TWkmDLus2tBaxNLtOy8WLrVkHxISnowjW0MpB8FqOSY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

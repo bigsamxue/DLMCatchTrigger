@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WCabfxME60egQNtUM4SR0tfnAkRX+SxM6VQmTheYAtY=</dsig:DigestValue>
+        <dsig:DigestValue>NOE3NMDgc3n7mU803YYAgOKYA0QCXF4ecsp+IIGicAo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -119,7 +119,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>m20YocjtLXRp5K9vfJFi4k8D121UK3HMX1QmW56Qm7E=</dsig:DigestValue>
+      <dsig:DigestValue>FihlZtVNgcNyH37Pf0Jtll3jZOm+L55ijXNjtoS2/mo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="tmctl64.dll" size="264360">
